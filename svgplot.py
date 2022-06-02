@@ -279,7 +279,6 @@ class SVG:
         # If text is path
         for el in self.iter("[@id]"):
             if el.get("id").startswith("DejaVuSans"):
-                print("Hhhhhh")
                 self.set_none(el, "class", "text")
 
         # If text is text
